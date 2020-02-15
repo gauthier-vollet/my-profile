@@ -1,0 +1,116 @@
+body {
+background-color: #F6F9FC; 
+color:#525F7F;
+font-family:'Lora', serif;
+font-size: 17px;
+font-weight: lighter;
+}
+
+h1, h2 {font-family:'Roboto', sans-serif;
+}
+
+
+h1 {
+color: #254E70;
+font-weight: 900;
+font-size: 32px;
+}
+
+
+h2 {
+color: #24B47E;
+font-size: 24px;
+font-weight: 350;
+}
+
+
+a  {
+font-family:'Roboto', sans-serif;
+text-decoration: none;
+color: #254E70;
+font-weight: bold;
+}
+
+
+a:hover{
+color:white;
+transition: 0.5s ease;
+}
+
+/*custom design with class*/
+
+.container{
+	    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px
+		}
+}
+
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px
+		}
+}
+
+
+.card-white{
+    background: white;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    }
+
+.img-circle { 
+border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #254E70;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black
+}
+
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+/*Specific adjudments with id*/
+
+#facebook-icon i:hover{
+	color: #4267B2
+}
+
+
+#linkedin-icon i:hover{
+	color: #0077B5
+}
+
+
+#introduction p{
+
+	margin-bottom: 40px
+}
